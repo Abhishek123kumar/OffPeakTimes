@@ -32,7 +32,7 @@ const Footer = () => {
           </p> */}
                 </p>
                 <p className="text-sm text-center py-4">
-                    Terms & ConditionsAplied
+                    Terms & ConditionsApplied
                 </p>
             </div>
         </div>
