@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/OffPeakTimes/static/css/main.0a002bd9.css",
+    "main.js": "/OffPeakTimes/static/js/main.3c26641a.js",
+    "static/media/img6.jpg": "/OffPeakTimes/static/media/img6.17bc79a852385a00ee2a.jpg",
+    "static/media/img1.jpg": "/OffPeakTimes/static/media/img1.d331534ce0f844f7f393.jpg",
+    "static/media/img4.jpg": "/OffPeakTimes/static/media/img4.2d87d591f5823050c783.jpg",
+    "static/media/img3.jpg": "/OffPeakTimes/static/media/img3.4bf168b60ba312f6726a.jpg",
+    "static/media/img2.jpg": "/OffPeakTimes/static/media/img2.76848688847d36541bc1.jpg",
+    "static/media/img5.jpg": "/OffPeakTimes/static/media/img5.640d22c69cb4470357de.jpg",
+    "static/media/hero.jpg": "/OffPeakTimes/static/media/hero.f28aca96eef193d9160d.jpg",
+    "static/media/about.png": "/OffPeakTimes/static/media/about.b93672fd8009a026aa49.png",
+    "index.html": "/OffPeakTimes/index.html",
+    "main.0a002bd9.css.map": "/OffPeakTimes/static/css/main.0a002bd9.css.map",
+    "main.3c26641a.js.map": "/OffPeakTimes/static/js/main.3c26641a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a002bd9.css",
+    "static/js/main.3c26641a.js"
+  ]
+}
