@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
+import img from "../assets/img/best-deal.jpeg";
+import PaymentFormModal from './PaymentModal';
 
 const HowItWorks = () => {
-    const handleScrollToSubscription = () => {
-        const subscriptionSection = document.getElementById('subscription-section');
-        if (subscriptionSection) {
-            subscriptionSection.scrollIntoView({ behavior: 'smooth' });
-        }
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const handleJoinClick = () => {
+        setIsModalOpen(true);
     };
 
     return (
@@ -24,9 +25,10 @@ const HowItWorks = () => {
                             />
                         </div>
                         <h3 className="text-xl font-semibold mb-2">Step1: Sign Up</h3>
-                        <p className="text-gray-600">
-                            Get your Offpeak subscription for only €9/month or €99/year (first
-                            month free).
+                        <p className="text-gray-700">
+                            Get Offpeak membership<br></br>
+                            €9/month or €99/year<br></br>
+                            1st month free trial
                         </p>
                     </div>
 
@@ -34,14 +36,15 @@ const HowItWorks = () => {
                     <div className="flex flex-col items-center text-center">
                         <div className="p-4 rounded-full bg-blue-100 mb-4">
                             <img
-                                src="https://www.shutterstock.com/image-vector/best-deal-sale-sticker-template-600nw-2227446359.jpg"
+                                src={img}
                                 alt="Find a Deal"
                                 className="w-full h-full object-cover rounded-full"
                             />
                         </div>
                         <h3 className="text-xl font-semibold mb-2">Step2: Find a Deal</h3>
                         <p className="text-gray-600">
-                            Browse exclusive deals & discounts at top restaurants & bars.
+                            Browse exclusive deals & discounts<br></br>
+                            at top restaurants & bars.
                         </p>
                     </div>
 
@@ -49,15 +52,15 @@ const HowItWorks = () => {
                     <div className="flex flex-col items-center text-center">
                         <div className="p-4 rounded-full bg-blue-100 mb-4">
                             <img
-                                src="https://img.freepik.com/free-photo/top-chefs-signature-dish-highend-culinary-presentation_157027-4318.jpg"
+                                src="https://images.pexels.com/photos/5638748/pexels-photo-5638748.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                                 alt="Dine & Save"
                                 className="w-full h-full object-cover rounded-full"
                             />
                         </div>
                         <h3 className="text-xl font-semibold mb-2">Step3: Dine & Save</h3>
                         <p className="text-gray-600">
-                            Visit during off-peak hours, show proof of membership, and enjoy
-                            your special offers.
+                            Visit during off-peak hours <br></br>
+                            & enjoy your special offers
                         </p>
                     </div>
                 </div>
@@ -65,13 +68,14 @@ const HowItWorks = () => {
                 {/* CTA Button */}
                 <div className="mt-6">
                     <button
-                        onClick={handleScrollToSubscription}
+                        onClick={handleJoinClick}
                         className="bg-blue-500 text-white px-4 py-2 text-sm rounded-lg hover:bg-blue-600 transition"
                     >
                         Get Membership
                     </button>
                 </div>
             </div>
+            {isModalOpen && <PaymentFormModal closeModal={() => setIsModalOpen(false)} />}
         </section>
     );
 };

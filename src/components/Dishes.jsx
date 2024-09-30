@@ -1,22 +1,10 @@
 import React, { useState } from "react";
-import img1 from "../assets/img/img1.jpg";
-import img2 from "../assets/img/img2.jpg";
-import img3 from "../assets/img/img3.jpg";
-import img4 from "../assets/img/img4.jpg";
-import img5 from "../assets/img/img5.jpg";
-import img6 from "../assets/img/img6.jpg";
+
 import DishesCard from "../layouts/DishesCard";
 
-const images = [
-  { img: img1, title: "Get 20% off at [Restaurant Name] between 2-5 PM, Monday to Thursday.", price: "$10.99" },
-  { img: img2, title: "Buy a main course, get a free appetizer at [Bar Name] before 6 PM", price: "$12.99" },
-  { img: img3, title: "Flat 25% off drinks at [Bar Name] from 3-5 PM", price: "$10.99" },
-  { img: img4, title: "Tasty Dish", price: "$11.99" },
-  { img: img5, title: "Tasty Dish", price: "$10.99" },
-  { img: img6, title: "Tasty Dish", price: "$12.99" },
-];
 
-const Dishes = ({ district }) => {
+
+const Dishes = ({ district, images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = () => {
@@ -30,7 +18,7 @@ const Dishes = ({ district }) => {
   return (
     <div className="min-h-full flex flex-col justify-center items-center lg:px-32 px-1">
       <h1 className="text-3xl lg:text-4xl font-semibold text-center pt-16 pb-8 lg:pt-24 lg:pb-10">
-        District 1
+        {district}
       </h1>
 
       {/* Carousel */}
@@ -49,6 +37,8 @@ const Dishes = ({ district }) => {
             img={images[currentIndex].img}
             title={images[currentIndex].title}
             price={images[currentIndex].price}
+            name={images[currentIndex].name}
+            cuisine={images[currentIndex].cuisine}
           />
         </div>
 

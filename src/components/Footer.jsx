@@ -12,6 +12,7 @@ const Footer = () => {
         </div> */}
                 <div>
                     <h1 className=" font-medium text-xl pb-2 pt-5 md:pt-0">Contact</h1>
+                    +36 70 563 2485
                     <nav className=" flex flex-col gap-2">
                         <a
                             className=" hover:text-brightColor transition-all cursor-pointer"
@@ -31,8 +32,8 @@ const Footer = () => {
 
           </p> */}
                 </p>
-                <p className="text-sm text-center py-4">
-                    Terms & ConditionsApplied
+                <p className="text-xsm text-center py-4 font-thin">
+                    Terms & Conditions Applied
                 </p>
             </div>
         </div>
