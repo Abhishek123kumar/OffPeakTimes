@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OffPeakTimes/static/css/main.b93fddb8.css",
-    "main.js": "/OffPeakTimes/static/js/main.98bd3f3e.js",
+    "main.js": "/OffPeakTimes/static/js/main.4ffdb030.js",
     "static/media/img6.jpg": "/OffPeakTimes/static/media/img6.17bc79a852385a00ee2a.jpg",
     "static/media/img1.jpg": "/OffPeakTimes/static/media/img1.d331534ce0f844f7f393.jpg",
     "static/media/img4.jpg": "/OffPeakTimes/static/media/img4.2d87d591f5823050c783.jpg",
@@ -14,10 +14,10 @@
     "static/media/best-deal.jpeg": "/OffPeakTimes/static/media/best-deal.23ffcdf3a8ee997de836.jpeg",
     "index.html": "/OffPeakTimes/index.html",
     "main.b93fddb8.css.map": "/OffPeakTimes/static/css/main.b93fddb8.css.map",
-    "main.98bd3f3e.js.map": "/OffPeakTimes/static/js/main.98bd3f3e.js.map"
+    "main.4ffdb030.js.map": "/OffPeakTimes/static/js/main.4ffdb030.js.map"
   },
   "entrypoints": [
     "static/css/main.b93fddb8.css",
-    "static/js/main.98bd3f3e.js"
+    "static/js/main.4ffdb030.js"
   ]
 }
