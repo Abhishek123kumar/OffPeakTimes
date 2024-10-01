@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/OffPeakTimes/static/css/main.526d36bc.css",
-    "main.js": "/OffPeakTimes/static/js/main.a4140f4e.js",
+    "main.css": "/OffPeakTimes/static/css/main.b93fddb8.css",
+    "main.js": "/OffPeakTimes/static/js/main.98bd3f3e.js",
     "static/media/img6.jpg": "/OffPeakTimes/static/media/img6.17bc79a852385a00ee2a.jpg",
     "static/media/img1.jpg": "/OffPeakTimes/static/media/img1.d331534ce0f844f7f393.jpg",
     "static/media/img4.jpg": "/OffPeakTimes/static/media/img4.2d87d591f5823050c783.jpg",
     "static/media/img3.jpg": "/OffPeakTimes/static/media/img3.4bf168b60ba312f6726a.jpg",
     "static/media/img2.jpg": "/OffPeakTimes/static/media/img2.76848688847d36541bc1.jpg",
     "static/media/img5.jpg": "/OffPeakTimes/static/media/img5.640d22c69cb4470357de.jpg",
+    "static/media/step1.png": "/OffPeakTimes/static/media/step1.f9f7e436b279b30d742b.png",
+    "static/media/hero.jpeg": "/OffPeakTimes/static/media/hero.22f7575f5631e0c61212.jpeg",
     "static/media/about.png": "/OffPeakTimes/static/media/about.b93672fd8009a026aa49.png",
     "static/media/best-deal.jpeg": "/OffPeakTimes/static/media/best-deal.23ffcdf3a8ee997de836.jpeg",
     "index.html": "/OffPeakTimes/index.html",
-    "main.526d36bc.css.map": "/OffPeakTimes/static/css/main.526d36bc.css.map",
-    "main.a4140f4e.js.map": "/OffPeakTimes/static/js/main.a4140f4e.js.map"
+    "main.b93fddb8.css.map": "/OffPeakTimes/static/css/main.b93fddb8.css.map",
+    "main.98bd3f3e.js.map": "/OffPeakTimes/static/js/main.98bd3f3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.526d36bc.css",
-    "static/js/main.a4140f4e.js"
+    "static/css/main.b93fddb8.css",
+    "static/js/main.98bd3f3e.js"
   ]
 }
