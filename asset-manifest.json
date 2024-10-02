@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/OffPeakTimes/static/css/main.582df6a3.css",
-    "main.js": "/OffPeakTimes/static/js/main.cbd4d614.js",
+    "main.css": "/OffPeakTimes/static/css/main.3cc9fcaa.css",
+    "main.js": "/OffPeakTimes/static/js/main.c2cdf3e2.js",
     "static/media/img6.jpg": "/OffPeakTimes/static/media/img6.17bc79a852385a00ee2a.jpg",
     "static/media/img1.jpg": "/OffPeakTimes/static/media/img1.d331534ce0f844f7f393.jpg",
     "static/media/img4.jpg": "/OffPeakTimes/static/media/img4.2d87d591f5823050c783.jpg",
@@ -35,11 +35,11 @@
     "static/media/Gundel Restaurant.svg": "/OffPeakTimes/static/media/Gundel Restaurant.a4c914cb80527b1912d9eeb8b080e9b7.svg",
     "static/media/KIOSK Budapest .svg": "/OffPeakTimes/static/media/KIOSK Budapest .b6742bb91257917ebb512cbcde9d7b95.svg",
     "index.html": "/OffPeakTimes/index.html",
-    "main.582df6a3.css.map": "/OffPeakTimes/static/css/main.582df6a3.css.map",
-    "main.cbd4d614.js.map": "/OffPeakTimes/static/js/main.cbd4d614.js.map"
+    "main.3cc9fcaa.css.map": "/OffPeakTimes/static/css/main.3cc9fcaa.css.map",
+    "main.c2cdf3e2.js.map": "/OffPeakTimes/static/js/main.c2cdf3e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.582df6a3.css",
-    "static/js/main.cbd4d614.js"
+    "static/css/main.3cc9fcaa.css",
+    "static/js/main.c2cdf3e2.js"
   ]
 }
