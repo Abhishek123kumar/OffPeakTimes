@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import DishesCard from "../layouts/DishesCard";
 
-
+import { useSwipeable } from 'react-swipeable';
 
 const Dishes = ({ district, images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -15,9 +15,16 @@ const Dishes = ({ district, images }) => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
   };
 
+  const handlers = useSwipeable({
+    onSwipedLeft: () => nextSlide(),
+    onSwipedRight: () => prevSlide(),
+    preventDefaultTouchmoveEvent: true,
+    trackMouse: true,
+  });
+
   return (
-    <div className="min-h-full flex flex-col justify-center items-center lg:px-32 px-1">
-      <h1 className="text-3xl lg:text-4xl font-semibold text-center pt-16 pb-8 lg:pt-24 lg:pb-10">
+    <div {...handlers} className="min-h-full  flex flex-col justify-center items-center lg:px-32 px-1">
+      <h1 className="text-3xl lg:text-4xl font-semibold text-center pt-16 pb-2 lg:pt-24 lg:pb-5">
         {district}
       </h1>
 
@@ -26,7 +33,7 @@ const Dishes = ({ district, images }) => {
         {/* Previous Button */}
         <button
           onClick={prevSlide}
-          className=" left-2 lg:left-0  top-1/2 bg-gray-800 text-white p-2 lg:p-4 rounded-full hover:bg-gray-600"
+          className=" left-2 lg:left-0  mr-1 top-1/2 bg-gray-800 text-white p-2 lg:p-4 rounded-full hover:bg-gray-600"
         >
           &#10094;
         </button>
@@ -45,7 +52,7 @@ const Dishes = ({ district, images }) => {
         {/* Next Button */}
         <button
           onClick={nextSlide}
-          className=" right-2 lg:right-0  top-1/2 bg-gray-800 text-white p-2 lg:p-4 rounded-full hover:bg-gray-600"
+          className=" right-2 lg:right-0  top-1/2 ml-1 bg-gray-800 text-white p-2 lg:p-4 rounded-full hover:bg-gray-600"
         >
           &#10095;
         </button>

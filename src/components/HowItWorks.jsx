@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import img from "../assets/img/best-deal.jpeg";
 import PaymentFormModal from './PaymentModal';
+import step1Image from '../assets/img/step1.png';
+
 
 const HowItWorks = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -19,12 +21,12 @@ const HowItWorks = () => {
                     <div className="flex flex-col items-center text-center">
                         <div className="p-4 rounded-full bg-blue-100 mb-4">
                             <img
-                                src="https://img.freepik.com/free-photo/sign-up-form-button-graphic-concept_53876-133556.jpg?size=626&ext=jpg"
+                                src={step1Image}
                                 alt="Sign Up"
                                 className="w-full h-full object-cover rounded-full"
                             />
                         </div>
-                        <h3 className="text-xl font-semibold mb-2">Step1: Sign Up</h3>
+                        <h3 className="text-xl font-semibold mb-2">Step 1: Sign Up</h3>
                         <p className="text-gray-700">
                             Get Offpeak membership<br></br>
                             €9/month or €99/year<br></br>
@@ -41,7 +43,7 @@ const HowItWorks = () => {
                                 className="w-full h-full object-cover rounded-full"
                             />
                         </div>
-                        <h3 className="text-xl font-semibold mb-2">Step2: Find a Deal</h3>
+                        <h3 className="text-xl font-semibold mb-2">Step 2: Find a Deal</h3>
                         <p className="text-gray-600">
                             Browse exclusive deals & discounts<br></br>
                             at top restaurants & bars.
@@ -57,7 +59,7 @@ const HowItWorks = () => {
                                 className="w-full h-full object-cover rounded-full"
                             />
                         </div>
-                        <h3 className="text-xl font-semibold mb-2">Step3: Dine & Save</h3>
+                        <h3 className="text-xl font-semibold mb-2">Step 3: Dine & Save</h3>
                         <p className="text-gray-600">
                             Visit during off-peak hours <br></br>
                             & enjoy your special offers
@@ -69,7 +71,7 @@ const HowItWorks = () => {
                 <div className="mt-6">
                     <button
                         onClick={handleJoinClick}
-                        className="bg-blue-500 text-white px-4 py-2 text-sm rounded-lg hover:bg-blue-600 transition"
+                        className="bg-blue-500 text-[1.1rem] text-white px-4 py-2 text-sm rounded-lg hover:bg-blue-600 transition"
                     >
                         Get Membership
                     </button>

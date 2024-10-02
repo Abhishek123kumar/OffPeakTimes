@@ -22,7 +22,7 @@ const PaymentFormModal = ({ closeModal }) => {
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-60 p-4">
             <div className="bg-white p-4 rounded-lg shadow-lg w-full max-w-md">
                 <h2 className="text-2xl font-bold mb-4 text-gray-800 text-center">
-                    {step === 1 ? 'User Details' : 'Choose Plan'}
+                    {step === 1 ? 'Sign Up' : 'Choose Plan'}
                 </h2>
                 <form onSubmit={handlePaymentSubmit}>
                     {step === 1 && (
@@ -54,7 +54,7 @@ const PaymentFormModal = ({ closeModal }) => {
                                     required
                                 />
                             </div> */}
-                            <div className="mb-5">
+                            {/* <div className="mb-5">
                                 <label className="block mb-2 text-sm font-medium text-gray-700" htmlFor="photo">Upload a Photo</label>
                                 <input
                                     type="file"
@@ -63,7 +63,7 @@ const PaymentFormModal = ({ closeModal }) => {
                                     accept="image/*" // Only accept image files
                                     required
                                 />
-                            </div>
+                            </div> */}
                         </>
                     )}
 
