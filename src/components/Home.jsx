@@ -9,7 +9,7 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-row justify-between items-center lg:px-32 lg:bg-[url('./assets/img/hero.jpeg')] px-5 bg-[url('https://images.pexels.com/photos/3126420/pexels-photo-3126420.jpeg?auto=compress&cs=tinysrgb&w=800')] bg-cover bg-no-repeat">
+    <div className="min-h-screen flex flex-row justify-between items-center lg:px-32 bg-[url('./assets/img/hero.png')] lg:bg-[url('./assets/img/hero4.png')] px-5 bg-cover bg-no-repeat">
       <div className="w-full lg:w-2/3 space-y-5">
         <h1 className="text-white font-semibold text-5xl lg:text-7xl ">
           Experience More for Less During Off-Peak Hours
