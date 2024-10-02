@@ -1,39 +1,45 @@
 {
   "files": {
-    "main.css": "/OffPeakTimes/static/css/main.20e448ee.css",
-    "main.js": "/OffPeakTimes/static/js/main.fb778602.js",
+    "main.css": "/OffPeakTimes/static/css/main.582df6a3.css",
+    "main.js": "/OffPeakTimes/static/js/main.cbd4d614.js",
     "static/media/img6.jpg": "/OffPeakTimes/static/media/img6.17bc79a852385a00ee2a.jpg",
     "static/media/img1.jpg": "/OffPeakTimes/static/media/img1.d331534ce0f844f7f393.jpg",
     "static/media/img4.jpg": "/OffPeakTimes/static/media/img4.2d87d591f5823050c783.jpg",
     "static/media/img3.jpg": "/OffPeakTimes/static/media/img3.4bf168b60ba312f6726a.jpg",
     "static/media/img2.jpg": "/OffPeakTimes/static/media/img2.76848688847d36541bc1.jpg",
     "static/media/img5.jpg": "/OffPeakTimes/static/media/img5.640d22c69cb4470357de.jpg",
+    "static/media/hero.png": "/OffPeakTimes/static/media/hero.f1c8999f3dae099c6ca9.png",
     "static/media/step1.png": "/OffPeakTimes/static/media/step1.f9f7e436b279b30d742b.png",
     "static/media/Fausto's.jpg": "/OffPeakTimes/static/media/Fausto's.0bff9e9bd47c02713c4c.jpg",
+    "static/media/hero4.png": "/OffPeakTimes/static/media/hero4.7113c745f40a22fe9ffc.png",
     "static/media/image.png": "/OffPeakTimes/static/media/image.7fd8e4e03cefd2c778ea.png",
-    "static/media/hero.jpeg": "/OffPeakTimes/static/media/hero.22f7575f5631e0c61212.jpeg",
     "static/media/about.png": "/OffPeakTimes/static/media/about.b93672fd8009a026aa49.png",
     "static/media/best-deal.jpeg": "/OffPeakTimes/static/media/best-deal.23ffcdf3a8ee997de836.jpeg",
     "static/media/Klub Vittula.jpg": "/OffPeakTimes/static/media/Klub Vittula.329f2e82974326fe0af0.jpg",
     "static/media/Trattoria Pomo D’Oro.jpg": "/OffPeakTimes/static/media/Trattoria Pomo D’Oro.5e86fdb2d56ec9ad7912.jpg",
+    "static/media/indigo.png": "/OffPeakTimes/static/media/indigo.d0b002b3cd849c0ec9e3.png",
     "static/media/BarCraft Corvin.jpg": "/OffPeakTimes/static/media/BarCraft Corvin.b59b77d38e244bd8e74d.jpg",
     "static/media/Café Csiga.jpg": "/OffPeakTimes/static/media/Café Csiga.9b302641fdc2a6b2777c.jpg",
     "static/media/Frici Papa.jpg": "/OffPeakTimes/static/media/Frici Papa.3de11c951b6ffb7da46b.jpg",
     "static/media/Trofea Grill.jpg": "/OffPeakTimes/static/media/Trofea Grill.bebce1c0f8426443e571.jpg",
+    "static/media/Cafe Vian.jpg": "/OffPeakTimes/static/media/Cafe Vian.429f8ef09fa9bb2adeb8.jpg",
     "static/media/GoSip Bar.jpg": "/OffPeakTimes/static/media/GoSip Bar.3ce051da410016d975a7.jpg",
     "static/media/Szeráj.jpg": "/OffPeakTimes/static/media/Szeráj.d25e5630d2944da3195e.jpg",
     "static/media/Pompás Budapest.jpg": "/OffPeakTimes/static/media/Pompás Budapest.ab2d17c3705955c16b3b.jpg",
+    "static/media/Pörc & Preclik.jpg": "/OffPeakTimes/static/media/Pörc & Preclik.1e1ae387f0b3a0cb7c89.jpg",
+    "static/media/White Raven Skybar & Lounge.jpg": "/OffPeakTimes/static/media/White Raven Skybar & Lounge.ceeba6e13585784cff99.jpg",
     "static/media/Menza Étterem és Kávéház.jpg": "/OffPeakTimes/static/media/Menza Étterem és Kávéház.0498110d06fd1c4bf69f.jpg",
     "static/media/Mag Pub.jpg": "/OffPeakTimes/static/media/Mag Pub.da77ef8c7b1d924c7cea.jpg",
+    "static/media/Dunacorso.jpg": "/OffPeakTimes/static/media/Dunacorso.d85131d241ce0c16d580.jpg",
     "static/media/Café Central.jpg": "/OffPeakTimes/static/media/Café Central.f303acacd5aa32b64981.jpg",
     "static/media/Gundel Restaurant.svg": "/OffPeakTimes/static/media/Gundel Restaurant.a4c914cb80527b1912d9eeb8b080e9b7.svg",
     "static/media/KIOSK Budapest .svg": "/OffPeakTimes/static/media/KIOSK Budapest .b6742bb91257917ebb512cbcde9d7b95.svg",
     "index.html": "/OffPeakTimes/index.html",
-    "main.20e448ee.css.map": "/OffPeakTimes/static/css/main.20e448ee.css.map",
-    "main.fb778602.js.map": "/OffPeakTimes/static/js/main.fb778602.js.map"
+    "main.582df6a3.css.map": "/OffPeakTimes/static/css/main.582df6a3.css.map",
+    "main.cbd4d614.js.map": "/OffPeakTimes/static/js/main.cbd4d614.js.map"
   },
   "entrypoints": [
-    "static/css/main.20e448ee.css",
-    "static/js/main.fb778602.js"
+    "static/css/main.582df6a3.css",
+    "static/js/main.cbd4d614.js"
   ]
 }
