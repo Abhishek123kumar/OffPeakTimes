@@ -33,7 +33,7 @@ const Dishes = ({ district, images }) => {
         {/* Previous Button */}
         <button
           onClick={prevSlide}
-          className=" left-2 lg:left-0  mr-1 top-1/2 bg-gray-800 text-white p-2 lg:p-4 rounded-full hover:bg-gray-600"
+          className=" left-2 lg:left-0  mr-2 top-1/2 bg-gray-600 text-white p-2 lg:p-4 rounded-full hover:bg-gray-600"
         >
           &#10094;
         </button>
@@ -52,7 +52,7 @@ const Dishes = ({ district, images }) => {
         {/* Next Button */}
         <button
           onClick={nextSlide}
-          className=" right-2 lg:right-0  top-1/2 ml-1 bg-gray-800 text-white p-2 lg:p-4 rounded-full hover:bg-gray-600"
+          className=" right-2 lg:right-0  top-1/2 ml-2 bg-gray-600 text-white p-2 lg:p-4 rounded-full hover:bg-gray-600"
         >
           &#10095;
         </button>

@@ -5,6 +5,7 @@ import Button from "../layouts/Button";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { BiChevronDown } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
+import PaymentFormModal from "./PaymentModal";
 
 const Navbar = () => {
     const [menu, setMenu] = useState(false);
@@ -17,6 +18,11 @@ const Navbar = () => {
         setMenu(false);
     };
 
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const handleJoinClick = () => {
+        setIsModalOpen(true);
+    };
     return (
         <div className=" fixed w-full">
             <div>
@@ -131,7 +137,8 @@ const Navbar = () => {
                             Reviews
                         </Link> */}
 
-                        <Button title="Get Membership" />
+                        <Button title="Get Membership" onClick={() => handleJoinClick()}
+                        />
                     </nav>
 
                     <div className="md:hidden flex items-center">
@@ -142,6 +149,7 @@ const Navbar = () => {
                         )}
                     </div>
                 </div>
+
                 <div
                     className={` ${menu ? "translate-x-0" : "-translate-x-full"
                         } lg:hidden flex flex-col absolute bg-gray-700 text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
@@ -197,8 +205,10 @@ const Navbar = () => {
                         Reviews
                     </Link> */}
 
-                    <Button className="font-thin" title="Get Membership" />
+                    {/* <Button className="font-thin" title="Get Membership" onClick={handleJoinClick} /> */}
                 </div>
+                {isModalOpen && <PaymentFormModal closeModal={() => setIsModalOpen(false)} />}
+
             </div>
         </div>
     );

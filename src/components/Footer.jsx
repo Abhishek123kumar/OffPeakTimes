@@ -32,9 +32,9 @@ const Footer = () => {
 
           </p> */}
                 </p>
-                <p className="text-xsm text-center py-4 font-thin">
+                {/* <p className="text-xsm text-center py-4 font-thin">
                     Terms & Conditions Applied
-                </p>
+                </p> */}
             </div>
         </div>
     );

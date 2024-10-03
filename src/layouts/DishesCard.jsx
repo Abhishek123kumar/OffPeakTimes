@@ -5,11 +5,11 @@ import { Button } from "react-scroll";
 
 const DishesCard = (props) => {
     return (
-        <div className=" w-full lg:w-[100vh]  p-2 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg">
+        <div className="w-full lg:w-[55vh]  p-2 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg">
             <div className="flex items-center justify-center">
-                <img className=" rounded-xl flex h-[38vh] lg:h-[60vh] " src={props.img} alt="img" />
+                <img className=" rounded-xl flex h-[38vh] lg:h-[40vh] " src={props.img} alt="img" />
             </div>
-            <div className=" space-y-4">
+            <div className="space-y-4">
                 <div className="flex flex-col justify-center items-center pt-6 text-lg text-red-600">
                     <div>{props.name}</div>
                     <h3 className="italic font-thin font-serif text-violet-500">{props.cuisine}</h3>
