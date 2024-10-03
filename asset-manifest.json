@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OffPeakTimes/static/css/main.db87fb9b.css",
-    "main.js": "/OffPeakTimes/static/js/main.d0f83b04.js",
+    "main.js": "/OffPeakTimes/static/js/main.f7e5276f.js",
     "static/media/img6.jpg": "/OffPeakTimes/static/media/img6.17bc79a852385a00ee2a.jpg",
     "static/media/img1.jpg": "/OffPeakTimes/static/media/img1.d331534ce0f844f7f393.jpg",
     "static/media/img4.jpg": "/OffPeakTimes/static/media/img4.2d87d591f5823050c783.jpg",
@@ -11,7 +11,9 @@
     "static/media/hero.png": "/OffPeakTimes/static/media/hero.f1c8999f3dae099c6ca9.png",
     "static/media/step1.png": "/OffPeakTimes/static/media/step1.f9f7e436b279b30d742b.png",
     "static/media/Fausto's.jpg": "/OffPeakTimes/static/media/Fausto's.0bff9e9bd47c02713c4c.jpg",
+    "static/media/Frici Papa.png": "/OffPeakTimes/static/media/Frici Papa.8bccd16030679d354f6f.png",
     "static/media/hero4.png": "/OffPeakTimes/static/media/hero4.7113c745f40a22fe9ffc.png",
+    "static/media/Kiosk.png": "/OffPeakTimes/static/media/Kiosk.d52496b8bbaa6c7e6a2b.png",
     "static/media/image.png": "/OffPeakTimes/static/media/image.7fd8e4e03cefd2c778ea.png",
     "static/media/about.png": "/OffPeakTimes/static/media/about.b93672fd8009a026aa49.png",
     "static/media/best-deal.jpeg": "/OffPeakTimes/static/media/best-deal.23ffcdf3a8ee997de836.jpeg",
@@ -20,7 +22,6 @@
     "static/media/indigo.png": "/OffPeakTimes/static/media/indigo.d0b002b3cd849c0ec9e3.png",
     "static/media/BarCraft Corvin.jpg": "/OffPeakTimes/static/media/BarCraft Corvin.b59b77d38e244bd8e74d.jpg",
     "static/media/Café Csiga.jpg": "/OffPeakTimes/static/media/Café Csiga.9b302641fdc2a6b2777c.jpg",
-    "static/media/Frici Papa.jpg": "/OffPeakTimes/static/media/Frici Papa.3de11c951b6ffb7da46b.jpg",
     "static/media/Trofea Grill.jpg": "/OffPeakTimes/static/media/Trofea Grill.bebce1c0f8426443e571.jpg",
     "static/media/Cafe Vian.jpg": "/OffPeakTimes/static/media/Cafe Vian.429f8ef09fa9bb2adeb8.jpg",
     "static/media/GoSip Bar.jpg": "/OffPeakTimes/static/media/GoSip Bar.3ce051da410016d975a7.jpg",
@@ -33,13 +34,12 @@
     "static/media/Dunacorso.jpg": "/OffPeakTimes/static/media/Dunacorso.d85131d241ce0c16d580.jpg",
     "static/media/Café Central.jpg": "/OffPeakTimes/static/media/Café Central.f303acacd5aa32b64981.jpg",
     "static/media/Gundel Restaurant.svg": "/OffPeakTimes/static/media/Gundel Restaurant.a4c914cb80527b1912d9eeb8b080e9b7.svg",
-    "static/media/KIOSK Budapest .svg": "/OffPeakTimes/static/media/KIOSK Budapest .b6742bb91257917ebb512cbcde9d7b95.svg",
     "index.html": "/OffPeakTimes/index.html",
     "main.db87fb9b.css.map": "/OffPeakTimes/static/css/main.db87fb9b.css.map",
-    "main.d0f83b04.js.map": "/OffPeakTimes/static/js/main.d0f83b04.js.map"
+    "main.f7e5276f.js.map": "/OffPeakTimes/static/js/main.f7e5276f.js.map"
   },
   "entrypoints": [
     "static/css/main.db87fb9b.css",
-    "static/js/main.d0f83b04.js"
+    "static/js/main.f7e5276f.js"
   ]
 }
