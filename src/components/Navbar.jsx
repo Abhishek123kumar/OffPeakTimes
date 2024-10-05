@@ -31,7 +31,7 @@ const Navbar = () => {
                         <span>
                             <BiRestaurant size={32} />
                         </span>
-                        <h1 className=" text-xl font-semibold">Offpeak Times</h1>
+                        <h1 className=" text-xl lg:text-3xl font-semibold">Offpeak</h1>
                     </div>
 
                     <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8">
@@ -137,8 +137,12 @@ const Navbar = () => {
                             Reviews
                         </Link> */}
 
-                        <Button title="Get Membership" onClick={() => handleJoinClick()}
-                        />
+                        <Link to="about">
+                            <Button
+                                title="Get Membership"
+                                onClick={handleJoinClick}
+                            />
+                        </Link>
                     </nav>
 
                     <div className="md:hidden flex items-center">
