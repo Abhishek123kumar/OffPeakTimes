@@ -39,6 +39,7 @@ import img31 from "./assets/img/Cafe Vian.jpg"
 import img32 from "./assets/img/White Raven Skybar & Lounge.jpg"
 import img33 from "./assets/img/indigo.png"
 const images1 = [
+  { img: "https://lh5.googleusercontent.com/p/AF1QipNPgy_hdFKwLhI5HvoVc8RzeA0tnd6aaoEzGTqa=w408-h272-k-no", title: "Get 20% off at Iguana Bar & Grill between 2-7 PM, Monday to Wednesday.", price: "$10.99", name: "Iguana Bar & Grill", cuisine: "Mexican" },
   { img: img13, title: "Get 20% off at Trattoria Pomo D’Oro between 2-5 PM, Monday to Thursday.", price: "$10.99", name: "Trattoria Pomo D’Oro", cuisine: "Italian" },
   { img: img17, title: "Buy a main course, get a free appetizer at Café Central before 6 PM", price: "$12.99", name: "Café Central", cuisine: "Hungarian" },
   { img: img12, title: "Flat 25% off on Burger Trio at Kiosk Budapest from 3-5 PM", price: "$10.99", cuisine: "Hungarian", name: "Kiosk Budapest" },
@@ -47,6 +48,9 @@ const images1 = [
   { img: img28, title: "Get Flat 25% off at Dunacorso Between 9pm and 11pm from Monday - Thursday", price: "$12.99", name: "Dunacorso", cuisine: "Hungarian" },
 ];
 const images2 = [
+  { img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnG-ePuwCXfvOojg5bmBCb6PfDitaiCJkbtg&s", title: "Get Flat 20% off at Twentysix Budapest between 11am and 12 noon everyday", price: "$16.99", name: "Twentysix Budapest", cuisine: "Mediterranean " },
+  { img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT5VxxOvavbQF45Cs_0-qdt0-EyETaJdCCmQ&s", title: "Buy 1 drink, get 1 free at Szimpla Kert between 3pm and 5pm every weekday", price: "$10.99", name: "Szimpla Kert", cuisine: "Bar" },
+
   { img: img10, title: "Get Flat 25% off at Fausto's between 11am and 12 noon everyday", price: "$14.99", name: "Fausto's", cuisine: "French" },
   // { img: img18, title: "Buy a main course, get a free appetizer/dessert at Frici Papa between 9pm and 11pm from Monday - Thursday", price: "$19.99", name: "Frici Papa", cuisine: "Hungarian" },
   { img: img29, title: "Get Flat 20% off at Mazel Tov between 11am and 12 noon everyday", price: "$16.99", name: "Mazel Tov", cuisine: "Mediterranean " },
@@ -73,6 +77,8 @@ const images4 = [
 ];
 
 const images5 = [
+  { img: "https://images.happycow.net/venues/1024/92/39/hcmp92391_965574.jpeg", title: "Get Flat 30% off at Tökmag Vegan Street between 11am and 12 noon everyday", price: "$12.99", name: "Tökmag Vegan Street", cuisine: "Vegan" },
+
   { img: img16, title: "Buy a main course, get a free appetizer at Black Cab Burger between 9pm and 11pm from Monday - Thursdays", price: "$10.99", name: "Black Cab Burger", cuisine: "Burgers" },
 
   { img: img21, title: "Buy a main course, get a free appetizer at Gundel Restaurant between 9pm and 11pm from Monday - Thursday", price: "$19.99", name: "Gundel Restaurant", cuisine: "Hungarian" },
