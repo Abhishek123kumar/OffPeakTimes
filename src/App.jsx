@@ -118,7 +118,7 @@ const App = () => {
           <HowItWorks />
         </div>
         {/* Dishes Section (If you want to show dishes multiple times, ensure they have unique content) */}
-        <div className="lg:flex">
+        <div className="lg:flex lg:justify-between lg:px-10">
           <div id="dishes">
             <Dishes district="District V (Belváros-Lipótváros)" images={images1} />
           </div>
@@ -126,7 +126,7 @@ const App = () => {
             <Dishes district="District VII (Erzsébetváros)" images={images2} />
           </div>
         </div>
-        <div className="lg:flex">
+        <div className="lg:flex lg:justify-between lg:px-10">
           <div id="dishes-district3">
             <Dishes district="District VI (Terézváros)" images={images3} />
           </div>

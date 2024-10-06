@@ -23,7 +23,7 @@ const Dishes = ({ district, images }) => {
   });
 
   return (
-    <div {...handlers} className="min-h-full  flex flex-col justify-center items-center lg:px-32 px-1">
+    <div {...handlers} className="min-h-full  flex flex-col justify-center items-center lg:px-2 px-1">
       <h1 className="text-3xl lg:text-4xl font-semibold text-center pt-16 pb-2 lg:pt-24 lg:pb-5">
         {district}
       </h1>
