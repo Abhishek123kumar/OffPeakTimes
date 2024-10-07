@@ -72,7 +72,7 @@ const images4 = [
   // { img: img4, title: "Buy 1 drink, get 1 free at The Coffee Place between 3pm and 6pm every weekday", price: "$6.99", name: "The Coffee Place", cuisine: "Cafe" },
   { img: img15, title: "Get Flat 25% off at Café Csiga between 11am and 12 noon everyday", price: "$13.99", name: "Café Csiga", cuisine: "Vegan" },
   // { img: img1, title: "Get Flat 25% off at Bella Italia between 11am and 12 noon everyday", price: "$11.99", name: "Bella Italia", cuisine: "Italian" },
-  { img: img17, title: "Buy a main course, get a free appetizer at Café Central before 6 PM", price: "$12.99", name: "Café Central", cuisine: "Hungarian" },
+  // { img: img17, title: "Buy a main course, get a free appetizer at Café Central before 6 PM", price: "$12.99", name: "Café Central", cuisine: "Hungarian" },
   { img: img32, title: "Buy 1 drink, get 1 free at White Raven between 3pm and 6pm every Friday", price: "$8.99", name: "White Raven", cuisine: "French" },
 ];
 
